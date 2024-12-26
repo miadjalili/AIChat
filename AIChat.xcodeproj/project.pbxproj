@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		949A26682D1A15A9007E0967 /* Exceptions for "AIChat" folder in "AIChat" target */ = {
+		949A268D2D1A506F007E0967 /* Exceptions for "AIChat" folder in "AIChat" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +43,7 @@
 		949A26372D1A0EE7007E0967 /* AIChat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				949A26682D1A15A9007E0967 /* Exceptions for "AIChat" folder in "AIChat" target */,
+				949A268D2D1A506F007E0967 /* Exceptions for "AIChat" folder in "AIChat" target */,
 			);
 			path = AIChat;
 			sourceTree = "<group>";
