@@ -23,11 +23,11 @@ struct ProfileView: View {
                 }
         }
         .sheet(isPresented: $showSettingsView) {
-            Text("SettingsView")
+            SettingsView()
         }
     }
     
-    private var settingsButton : some View {
+    private var settingsButton: some View {
         Button {
             onSettingButtonPressed()
         } label: {
