@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		94BAC4612D2A27B200315812 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 94BAC4602D2A27B200315812 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		949A26462D1A0EE9007E0967 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BAC4612D2A27B200315812 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +131,7 @@
 			);
 			name = AIChat;
 			packageProductDependencies = (
+				94BAC4602D2A27B200315812 /* SDWebImageSwiftUI */,
 			);
 			productName = AIChat;
 			productReference = 949A26352D1A0EE7007E0967 /* AIChat.app */;
@@ -209,6 +215,9 @@
 			);
 			mainGroup = 949A262C2D1A0EE7007E0967;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				94B775C42D2A2523005B6891 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 949A26362D1A0EE7007E0967 /* Products */;
 			projectDirPath = "";
@@ -609,6 +618,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94B775C42D2A2523005B6891 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94BAC4602D2A27B200315812 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 949A262D2D1A0EE7007E0967 /* Project object */;
 }
