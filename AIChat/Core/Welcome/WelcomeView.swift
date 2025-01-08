@@ -44,7 +44,7 @@ struct WelcomeView: View {
         VStack {
             
             NavigationLink {
-                OnboardingCompletedView()
+                OnboardingIntroView()
             } label: {
                 Text("Get Started")
                     .callToActionButton()
